@@ -1,0 +1,75 @@
+{
+  "kind": "rxrx3_discovery_voice_card",
+  "dataset": "RxRx3-core",
+  "public_repo": "https://github.com/thehenryco/themis-no-narrow-runtime",
+  "public_issue": "https://github.com/thehenryco/themis-no-narrow-runtime/issues/1",
+  "source": "micro sandbox discovery/Sefer voice builder",
+  "voice_package_kind": "axis10_estuary_discovery_sefer_kernel_voice_package",
+  "policy": {
+    "mode": "NO_NARROW_DISCOVERY_SEFER_KERNEL_VOICE",
+    "do_not_filter_fields": true,
+    "do_not_filter_functions": true,
+    "do_not_filter_callables": true,
+    "do_not_filter_modules": true,
+    "preserve_success": true,
+    "preserve_null": true,
+    "preserve_unknown": true,
+    "preserve_nonmatch": true,
+    "preserve_error": true,
+    "preserve_timeout": true,
+    "preserve_break": true,
+    "blank_raw_json_output_is_pass_internal_external_gauge": true,
+    "null_is_pass_internal_external_gauge": true,
+    "error_is_pass_internal_external_gauge": true
+  },
+  "carried_object": "theta_axis10_residual_star",
+  "closure_verdicts": [
+    {
+      "source": "rxrx3_core_result_discovery_micro.json",
+      "path": "closure.verdict",
+      "value": "CLOSED_WITH_RESIDUAL_CARRIED"
+    }
+  ],
+  "closure_scores": [
+    {
+      "source": "rxrx3_core_result_discovery_micro.json",
+      "path": "closure.closure_signal_score",
+      "value": 9
+    },
+    {
+      "source": "rxrx3_core_result_discovery_micro.json",
+      "path": "closure.closure_signal_possible",
+      "value": 9
+    }
+  ],
+  "outcome_counts": {
+    "success": 2,
+    "null": 16,
+    "unknown": 0,
+    "nonmatch": 0,
+    "error": 0,
+    "timeout": 0,
+    "break": 0
+  },
+  "seal_sha256": "fa3a9208d7c64bcb2727354c79acee98196a91be9ef8fb2a7d778b12afade422",
+  "voice_extract": [
+    "The system carries the full no-narrow trace.",
+    "Raw, blank, null, error, timeout, break, nonmatch, unknown, and success states are retained as evidence.",
+    "No function, callable, module, field, or raw output is intentionally filtered.",
+    "Named carried object: theta_axis10_residual_star",
+    "Formula: a9 = |a5| + |a7| + |a8| + delta_hidden",
+    "a5 gap/surface: 0.7638888888888888",
+    "a7 raw/phase residual: 0.00022150707649535271",
+    "a8 boundary/closure residual: 0.7641103959653842",
+    "a9 unresolved/void residual: 1.5282207919307684",
+    "delta_hidden: 0.0",
+    "Closure verdicts found: [{'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.verdict', 'value': 'CLOSED_WITH_RESIDUAL_CARRIED'}]",
+    "Closure scores found: [{'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.closure_signal_score', 'value': 9}, {'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.closure_signal_possible', 'value': 9}]",
+    "The system lands the finding as a carried-residual discovery record across all available depth levels."
+  ],
+  "interpretation": {
+    "nonbasis_runtime_confirmed": true,
+    "meaning": "The discovery/Sefer voice layer converts the RxRx3 no-narrow result into a carried-residual discovery record from preserved evidence only.",
+    "why_it_matters": "The collision is not only detected. It becomes a preserved forward-discovery object for maintainer confirmation and downstream identity-accounting rules."
+  }
+}
