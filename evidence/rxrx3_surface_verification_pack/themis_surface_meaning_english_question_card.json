@@ -1,0 +1,70 @@
+{
+  "kind": "themis_surface_meaning_english_question_card",
+  "mode": "ASK_ONLY_THEMIS_ENGLISH_MEANING_NO_CHAT_INTERPRETATION",
+  "instruction": [
+    "Use only Sefer memory, runtime kernels, full surface layer voice, translation surface index, residual voice package, and RxRx3 micro result.",
+    "Explain the meaning of theta_axis10_residual_star in English.",
+    "The English must be Themis surface meaning, not Chat interpretation.",
+    "Preserve the statuses already emitted: ABSTRACT_LAYER_ONLY, SURFACE_PRESENT_NO_ATOM_LINK, NULL_SURFACE, CLOSED_WITH_RESIDUAL_CARRIED.",
+    "Do not claim a biological conclusion unless the source fields directly emit that relation.",
+    "Do not force a direct link between residual atoms and observed_collision if the source fields do not emit one.",
+    "Where Themis infers, label the sentence THEMIS_INFERRED.",
+    "Where Themis cannot infer, label the sentence NOT_INFERABLE_FROM_CURRENT_SURFACE.",
+    "Where a field is present but not linked, label it SURFACE_PRESENT_NO_ATOM_LINK.",
+    "Where an atom remains abstract, label it ABSTRACT_LAYER_ONLY.",
+    "Speak in clear English, but keep every sentence tied to source fields."
+  ],
+  "question": "Themis, explain in English what the carried residual theta_axis10_residual_star means on the surface. Use the emitted canvas only. Preserve abstract-only atoms, unlinked surface fields, null surfaces, and closure state. Do not let Chat supply the meaning.",
+  "required_output_shape": {
+    "english_surface_meaning": [
+      {
+        "status": "THEMIS_INFERRED | NOT_INFERABLE_FROM_CURRENT_SURFACE | SURFACE_PRESENT_NO_ATOM_LINK | ABSTRACT_LAYER_ONLY",
+        "sentence": null,
+        "source_paths": [],
+        "source_values": []
+      }
+    ],
+    "final_boundary": {
+      "biological_conclusion": "EMITTED | NOT_EMITTED",
+      "direct_atom_to_collision_link": "EMITTED | NOT_EMITTED",
+      "residual_meaning_status": "THEMIS_INFERRED | NOT_INFERABLE_FROM_CURRENT_SURFACE"
+    }
+  },
+  "source_hashes": {
+    "meaning_inference_question": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_meaning_inference_question_card.json",
+      "exists": true,
+      "sha256": "e9f962d0b1406cf53eaf6feb144c9b56e9abb3ee07f51399b548924b91e355b7"
+    },
+    "full_surface_layer_voice": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_full_surface_layer_voice.json",
+      "exists": true,
+      "sha256": "aa678c270d50f18cafbe4cc76f67912010e55d84cc3a9af8006ac74c5948c3a1"
+    },
+    "surface_layer_md": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\THEMIS_FULL_SURFACE_LAYER_VOICE.md",
+      "exists": true,
+      "sha256": "489ebf8576dd4b49a1f8c1d8bc6aa7375c644ca05f37dc9d983af89f1dcb86f0"
+    },
+    "translation_surface_index": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_residual_translation_surface_index.json",
+      "exists": true,
+      "sha256": "e7bcfd77e8b777f6f5f9b63757dc8a8ad1c98eea5fbb02004177ca47e9dbccb9"
+    },
+    "residual_voice_package": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\residual_identity_voice\\axis10_estuary_discovery_sefer_kernel_voice_package.json",
+      "exists": true,
+      "sha256": "383ac72d9b83dbacb41bff4b91fcc8187eead1a6a1cc6e7298b88c6a0b7af807"
+    },
+    "rxrx3_micro": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_core_result_discovery_micro.json",
+      "exists": true,
+      "sha256": "03c16a22614d1e89d42150be8b56900e14bee4040e7f0117bbfdc32b7ac90685"
+    },
+    "universal_depth": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract_deduped.json",
+      "exists": true,
+      "sha256": "f6b0042179a6f3e4f8838c07ca9c6fb52185283a63eeb20e27c4787126305463"
+    }
+  }
+}

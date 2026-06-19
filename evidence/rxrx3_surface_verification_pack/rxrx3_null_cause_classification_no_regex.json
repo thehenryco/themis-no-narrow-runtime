@@ -1,0 +1,340 @@
+{
+  "kind": "rxrx3_null_cause_classification_no_regex",
+  "method": "JSON structure walk and filesystem existence checks only; no regex classification",
+  "counts_by_kind": {
+    "loaded_output_status_null": 15,
+    "raw_jsonl_status_null": 1,
+    "trace_status_null": 16,
+    "micro_sample_value_null": 1
+  },
+  "rows": [
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "loaded_output_status_null",
+      "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "path_exists": false,
+        "data_is_null": true
+      }
+    },
+    {
+      "kind": "raw_jsonl_status_null",
+      "json_path": "raw_jsonl[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl]",
+      "detail": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "path_exists": false,
+        "records_read": 0,
+        "sample_len": 0
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[1]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[2]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[3]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[4]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[5]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[6]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[7]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[8]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[9]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[10]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[11]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[12]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[13]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[14]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[15]",
+      "detail": {
+        "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "path_exists": false,
+        "payload_type": "NoneType",
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "trace_status_null",
+      "json_path": "trace[17]",
+      "detail": {
+        "stage": "raw_jsonl:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "path_exists": false,
+        "payload_type": null,
+        "error_field_is_null": true
+      }
+    },
+    {
+      "kind": "micro_sample_value_null",
+      "json_path": "$.Axis10.quarantine",
+      "detail": {
+        "meaning": "actual JSON null in micro sample"
+      }
+    }
+  ]
+}

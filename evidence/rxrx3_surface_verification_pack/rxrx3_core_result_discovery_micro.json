@@ -1,0 +1,98 @@
+{
+  "kind": "axis10_estuary_no_narrow_orchestration",
+  "dataset": "RxRx3-core",
+  "public_repo": "https://github.com/thehenryco/themis-no-narrow-runtime",
+  "public_issue": "https://github.com/thehenryco/themis-no-narrow-runtime/issues/1",
+  "event": {
+    "sample_count": 222601,
+    "source_mode": "csv"
+  },
+  "relation_mix_summary": {
+    "sample_count": 222601,
+    "time_count": 222601,
+    "identity_preserved": true
+  },
+  "witness": {
+    "operator": "witness_passive_observation",
+    "observed_digest": "c61162d1487164c6a29ed5268218a66b44bb0f486e71f571c995ffba6c2b0bd7",
+    "observation": {
+      "source_ids": [
+        "0",
+        "1"
+      ],
+      "time_count": 222601,
+      "sample_count": 222601,
+      "mix_energy_proxy": 5769642.419650231
+    },
+    "delta_event_under_witness": 0,
+    "backaction": 0,
+    "source_unchanged": true
+  },
+  "Axis10": {
+    "carrier": "Axis10",
+    "s_pi": [
+      2.42130914723405e-05,
+      0.99999999289192,
+      0.00011643850587615089,
+      3.438999589113451e-07,
+      3.4316661431226663e-06,
+      1.060696807874279e-06,
+      9.950901838313688e-10,
+      3.4326612333064977e-06,
+      6.865322466612995e-06,
+      1.5749422905978407e-07
+    ],
+    "norm_sq": 0.9999999999999997,
+    "unit_boundary_held": true,
+    "tangent_condition": 0.0,
+    "no_radial_drift": true,
+    "quarantine": null,
+    "residual_budget": {
+      "a9": 1.5282207919307684,
+      "a5": 0.7638888888888888,
+      "a7_8K": 0.00022150707649535271,
+      "a8_8K": 0.7641103959653842,
+      "visible_sum": 1.5282207919307684,
+      "delta_hidden_8K": 0.0
+    },
+    "theta_axis10_residual_star": {
+      "name": "theta_axis10_residual_star",
+      "status": "RESIDUAL_CARRIED",
+      "tuple": {
+        "a9": 1.5282207919307684,
+        "a5": 0.7638888888888888,
+        "a7_8K": 0.00022150707649535271,
+        "a8_8K": 0.7641103959653842,
+        "delta_hidden_8K": 0.0
+      }
+    }
+  },
+  "closure": {
+    "verdict": "CLOSED_WITH_RESIDUAL_CARRIED",
+    "closure_signal_score": 9,
+    "closure_signal_possible": 9,
+    "remaining_object": "theta_axis10_residual_star"
+  },
+  "runtime_ms": 4210,
+  "Sefer": {
+    "landed": 1,
+    "source": "axis10_estuary_no_narrow_orchestration",
+    "seal": "270968ffcd29de57b4a7fcb054d8e518fec610d7842b118f5645d8438b2c447b",
+    "db_path": "<private-sefer-db>"
+  },
+  "outcome_counts": {
+    "success": 9,
+    "null": 0,
+    "unknown": 0,
+    "nonmatch": 0,
+    "error": 0,
+    "timeout": 0,
+    "break": 0
+  },
+  "observed_collision": {
+    "digest": "923e8f259a606dd40355f0fe0b2cecc473dd3755cf7b3ed9c2403c34e2423d60",
+    "identity_a": "PLK1 / PLK1_guide_1 / CRISPR Gene Positive Controls",
+    "identity_b": "AKR1C3 / AKR1C3_guide_5 / Query guides",
+    "meaning": "same 384-feature embedding digest across distinct metadata identities"
+  }
+}

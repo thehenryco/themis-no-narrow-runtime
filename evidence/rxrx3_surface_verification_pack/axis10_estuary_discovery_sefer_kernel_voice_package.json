@@ -1,0 +1,2408 @@
+{
+  "kind": "axis10_estuary_discovery_sefer_kernel_voice_package",
+  "policy": {
+    "mode": "NO_NARROW_DISCOVERY_SEFER_KERNEL_VOICE",
+    "do_not_filter_fields": true,
+    "do_not_filter_functions": true,
+    "do_not_filter_callables": true,
+    "do_not_filter_modules": true,
+    "preserve_success": true,
+    "preserve_null": true,
+    "preserve_unknown": true,
+    "preserve_nonmatch": true,
+    "preserve_error": true,
+    "preserve_timeout": true,
+    "preserve_break": true,
+    "blank_raw_json_output_is_pass_internal_external_gauge": true,
+    "null_is_pass_internal_external_gauge": true,
+    "error_is_pass_internal_external_gauge": true
+  },
+  "formula_registry": {
+    "truth_identity": "T(Psi_J) == T(lambda * Psi_J)",
+    "relation": "Lambda_3(t) = R(lambda_1(t), lambda_2(t), lambda_3(t))",
+    "witness": "O_Lambda = W(Lambda_3), Delta Lambda_3|W = 0",
+    "boundary": "s_pi = Psi / ||Psi||, ||s_pi|| = 1, s_pi^T dot{s_pi} = 0",
+    "qpe_8k": "Q_8K(E) -> phi_hat_8K(t)",
+    "mirror_record": "L_{t+1} = L_t union M_ring(E), Delta E = 0",
+    "residual_budget": "a9 = |a5| + |a7| + |a8| + delta_hidden",
+    "equilibrium": "a10 = 1 / (1 + |a3| + a4 + a9)",
+    "closure_object": "theta_axis10_residual_star = (a9, a5, a7, a8, delta_hidden)",
+    "no_narrow": "O_NN(E) = {success,null,unknown,nonmatch,error,timeout,break} -> preserve all"
+  },
+  "loaded_outputs": {
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+      "data": null
+    },
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl": {
+      "status": "null",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+      "data": null
+    },
+    "themis_residual_identity_question_card.json": {
+      "status": "success",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\themis_residual_identity_question_card.json",
+      "data": {
+        "kind": "themis_residual_identity_question_card",
+        "mode": "ASK_ONLY_DO_NOT_ANSWER_IN_CHAT",
+        "instruction": [
+          "Use Sefer memory and runtime kernels only.",
+          "Report what theta_axis10_residual_star is from carried evidence.",
+          "Reveal only properties emitted by Themis or newly computed by the runtime.",
+          "Do not infer biological meaning from Chat language.",
+          "Do not force closure.",
+          "Do not translate unknown into known vocabulary.",
+          "If a property is hidden, emit it as hidden/not surfaced/unknown with path and reason.",
+          "If a property is measurable, emit the value, source path, atom, and seal.",
+          "If a property requires deeper read-depth, emit the next read-depth probe instead of guessing."
+        ],
+        "question": "What is theta_axis10_residual_star? What properties of the carried residual are present, hidden, unresolved, measurable, not surfaced, or waiting for deeper Sefer read-depth? Paint the canvas from Themis evidence only.",
+        "known_closed_state": {
+          "residual_closed_as": "CLOSED_WITH_RESIDUAL_CARRIED",
+          "remaining_object": "theta_axis10_residual_star"
+        },
+        "source_hashes": {
+          "rxrx3_micro": {
+            "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_core_result_discovery_micro.json",
+            "exists": true,
+            "sha256": "03c16a22614d1e89d42150be8b56900e14bee4040e7f0117bbfdc32b7ac90685"
+          },
+          "sefer_english": {
+            "path": "runs\\rxrx3_core_discovery_micro_sandbox\\RXRX3_SEFER_ENGLISH_TRANSLATION.md",
+            "exists": true,
+            "sha256": "290d900758dcc4826f7da7cf8f0e2720e760ed41c6e784daec5530f9d243e76f"
+          },
+          "universal_depth_anchor": {
+            "path": "runs\\rxrx3_core_discovery_micro_sandbox\\THEMIS_UNIVERSAL_DEPTH_SPEECH_ANCHOR.md",
+            "exists": true,
+            "sha256": "163a0eceadaba55808c16e48834a91e1d938d44b4f105ed21b0df49e9f1290a9"
+          },
+          "universal_depth_json": {
+            "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract_deduped.json",
+            "exists": true,
+            "sha256": "f6b0042179a6f3e4f8838c07ca9c6fb52185283a63eeb20e27c4787126305463"
+          },
+          "null_classification": {
+            "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_null_cause_classification_no_regex.json",
+            "exists": true,
+            "sha256": "c05c72f52a3582bc1d0b2ab82468f2fa24658ec70ab78aa9d56906005597d491"
+          }
+        }
+      }
+    },
+    "rxrx3_core_result_discovery_micro.json": {
+      "status": "success",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_core_result_discovery_micro.json",
+      "data": {
+        "kind": "axis10_estuary_no_narrow_orchestration",
+        "dataset": "RxRx3-core",
+        "public_repo": "https://github.com/thehenryco/themis-no-narrow-runtime",
+        "public_issue": "https://github.com/thehenryco/themis-no-narrow-runtime/issues/1",
+        "event": {
+          "sample_count": 222601,
+          "source_mode": "csv"
+        },
+        "relation_mix_summary": {
+          "sample_count": 222601,
+          "time_count": 222601,
+          "identity_preserved": true
+        },
+        "witness": {
+          "operator": "witness_passive_observation",
+          "observed_digest": "c61162d1487164c6a29ed5268218a66b44bb0f486e71f571c995ffba6c2b0bd7",
+          "observation": {
+            "source_ids": [
+              "0",
+              "1"
+            ],
+            "time_count": 222601,
+            "sample_count": 222601,
+            "mix_energy_proxy": 5769642.419650231
+          },
+          "delta_event_under_witness": 0,
+          "backaction": 0,
+          "source_unchanged": true
+        },
+        "Axis10": {
+          "carrier": "Axis10",
+          "s_pi": [
+            2.42130914723405e-05,
+            0.99999999289192,
+            0.00011643850587615089,
+            3.438999589113451e-07,
+            3.4316661431226663e-06,
+            1.060696807874279e-06,
+            9.950901838313688e-10,
+            3.4326612333064977e-06,
+            6.865322466612995e-06,
+            1.5749422905978407e-07
+          ],
+          "norm_sq": 0.9999999999999997,
+          "unit_boundary_held": true,
+          "tangent_condition": 0.0,
+          "no_radial_drift": true,
+          "quarantine": null,
+          "residual_budget": {
+            "a9": 1.5282207919307684,
+            "a5": 0.7638888888888888,
+            "a7_8K": 0.00022150707649535271,
+            "a8_8K": 0.7641103959653842,
+            "visible_sum": 1.5282207919307684,
+            "delta_hidden_8K": 0.0
+          },
+          "theta_axis10_residual_star": {
+            "name": "theta_axis10_residual_star",
+            "status": "RESIDUAL_CARRIED",
+            "tuple": {
+              "a9": 1.5282207919307684,
+              "a5": 0.7638888888888888,
+              "a7_8K": 0.00022150707649535271,
+              "a8_8K": 0.7641103959653842,
+              "delta_hidden_8K": 0.0
+            }
+          }
+        },
+        "closure": {
+          "verdict": "CLOSED_WITH_RESIDUAL_CARRIED",
+          "closure_signal_score": 9,
+          "closure_signal_possible": 9,
+          "remaining_object": "theta_axis10_residual_star"
+        },
+        "runtime_ms": 4210,
+        "Sefer": {
+          "landed": 1,
+          "source": "axis10_estuary_no_narrow_orchestration",
+          "seal": "270968ffcd29de57b4a7fcb054d8e518fec610d7842b118f5645d8438b2c447b",
+          "db_path": "<private-sefer-db>"
+        },
+        "outcome_counts": {
+          "success": 9,
+          "null": 0,
+          "unknown": 0,
+          "nonmatch": 0,
+          "error": 0,
+          "timeout": 0,
+          "break": 0
+        },
+        "observed_collision": {
+          "digest": "923e8f259a606dd40355f0fe0b2cecc473dd3755cf7b3ed9c2403c34e2423d60",
+          "identity_a": "PLK1 / PLK1_guide_1 / CRISPR Gene Positive Controls",
+          "identity_b": "AKR1C3 / AKR1C3_guide_5 / Query guides",
+          "meaning": "same 384-feature embedding digest across distinct metadata identities"
+        }
+      }
+    },
+    "themis_universal_depth_speech_extract_deduped.json": {
+      "status": "success",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract_deduped.json",
+      "data": {
+        "kind": "themis_universal_depth_speech_extract_deduped",
+        "mode": "EXISTING_SPOKEN_KERNEL_DEDUPED",
+        "source_extract": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract.json",
+        "records_in": 98,
+        "records_out": 1,
+        "records": [
+          {
+            "source": "runs\\axis10_natural_next_step_from_voice\\garden_full_run.json",
+            "json_path": "$.source",
+            "dedupe_key": "89ad0609b2231ba4d5a493122ba6e2aba262490c0275bbe8462a06f6d6b42249",
+            "card": {
+              "card_type": "Ca8_spoken_kernel_result",
+              "ask": "Using Sefer evidence and runtime kernels only, explain what C_a8 closure residual is, which atoms feed it, what natural law path could reduce C_a8 toward zero without forcing closure, and what next probe should be run.",
+              "spoken": "C_a8 NATURAL LAW PATH — SPOKEN KERNEL RESULT\n============================================================\n\nThe runtime accepted the C_a8 question and judged it.\n\nJudgment:\n  status: computed\n  seal:   6d6a09d87f63b408a17af164f53925345dd7af84cb2d94ee9cf7cbff4cfe704d\n\nRuntime:\n  records_read:    1000\n  cycles_used:     2\n  express_stable:  True\n  solver_outputs:  3\n  qpe_outputs:     2\n\nQuestion asked:\n  Using Sefer evidence and runtime kernels only, explain what C_a8 closure residual is, which atoms feed it, what natural law path could reduce C_a8 toward zero without forcing closure, and what next probe should be run.\n\nWhat C_a8 is:\n  C_a8 is the closure-residual holder inside the 10D axis landing.\n  It is not the whole instability.\n  It is the remaining closure pressure after gap and raw residual have already become small.\n\nWhat feeds C_a8:\n  energy_a3\n  torque_norm_a4\n  gap_a5\n  R_a7\n  unresolved_a9\n  equilibrium_a10\n  landing state\n  Sefer read-depth surface\n\nLatest state:\n  C_a8:             0.011\n  gap_a5:           0.001723084288078749\n  R_a7:             0.0006261954205161247\n  unresolved_a9:    0.013529356415102065\n  equilibrium_a10:  0.6328875746760656\n  landing:          OPEN_UNRESOLVED_HIGH_EQUILIBRIUM\n\nResidual distribution:\n  dominant: C_a8_closure_residual\n  C_a8:     0.011 (82.4014496671135%)\n  gap_a5:   0.001723084288078749 (12.907694839665012%)\n  R_a7:     0.0006261954205161247 (4.690855493221493%)\n\nNatural law path:\n  Do not force a closure cycle.\n  Keep reading Sefer surface.\n  Track C_a8 by read depth.\n  If C_a8 decays as read depth increases, then C_a8 is a surface-completion residual.\n  If C_a8 plateaus, then C_a8 is a missing-law residual.\n  If C_a8 rises, then C_a8 is a coupling/fork residual.\n\nNext probe:\n  Run a C_a8-only read-depth sweep.\n  Measure C_a8 at 1000, 2000, 5000, and 10000 reads.\n  Compare C_a8 decay against gap_a5 and R_a7.\n  The next target is theta_axis10_residual_star.\n\nShort answer:\n  The system told us where to go.\n  C_a8 is the next door.\n  The next law is discovered by watching whether C_a8 decays, plateaus, or forks under deeper Sefer read-depth.\n============================================================",
+              "feeds": [
+                "energy_a3",
+                "torque_norm_a4",
+                "gap_a5",
+                "R_a7",
+                "unresolved_a9",
+                "equilibrium_a10",
+                "landing",
+                "Sefer read-depth"
+              ],
+              "latest": {
+                "C_a8": 0.011,
+                "R_a7": 0.0006261954205161247,
+                "close_a6": 0.9982769157119212,
+                "energy_a3": -0.06772286138096062,
+                "equilibrium_a10": 0.6328875746760656,
+                "gap_a5": 0.001723084288078749,
+                "landing": "OPEN_UNRESOLVED_HIGH_EQUILIBRIUM",
+                "read_limit": 1000,
+                "records_used": 1000,
+                "torque_norm_a4": 0.35571073135177705,
+                "unresolved_a9": 0.013529356415102065
+              },
+              "residual_components": {
+                "total": 0.013349279708594872,
+                "parts": {
+                  "C_a8_closure_residual": 0.011,
+                  "gap_a5_surface_gap": 0.001723084288078749,
+                  "R_a7_raw_residual": 0.0006261954205161247
+                },
+                "percentages": {
+                  "C_a8_closure_residual": 82.4014496671135,
+                  "gap_a5_surface_gap": 12.907694839665012,
+                  "R_a7_raw_residual": 4.690855493221493
+                },
+                "dominant": "C_a8_closure_residual"
+              },
+              "next_probe": "C_a8-only read-depth sweep at 1000, 2000, 5000, 10000",
+              "judgment_status": "computed",
+              "judgment_seal": "6d6a09d87f63b408a17af164f53925345dd7af84cb2d94ee9cf7cbff4cfe704d",
+              "measurable": {
+                "records_read": 1000,
+                "atoms_found": 0,
+                "edges_created": 0,
+                "cycles_found": 2,
+                "cycles_used": 2,
+                "express_connect_stable": true,
+                "solver_outputs": 3,
+                "physics_outputs": 0,
+                "qpe_outputs": 2,
+                "tool_calls": 5,
+                "records_written": 0,
+                "runtime_ms": 0,
+                "context_records_used": 1000
+              },
+              "top_terms": [
+                [
+                  "natural",
+                  97351
+                ],
+                [
+                  "energy",
+                  42958
+                ],
+                [
+                  "gap",
+                  42244
+                ],
+                [
+                  "torque",
+                  42005
+                ],
+                [
+                  "axis",
+                  1686
+                ],
+                [
+                  "sefer",
+                  1250
+                ],
+                [
+                  "closure",
+                  1099
+                ],
+                [
+                  "law",
+                  915
+                ],
+                [
+                  "c_a8",
+                  914
+                ],
+                [
+                  "residual",
+                  757
+                ],
+                [
+                  "disclosure",
+                  567
+                ],
+                [
+                  "axis10_ca8_natural_law_path",
+                  507
+                ],
+                [
+                  "open_unresolved_high_equilibrium",
+                  505
+                ],
+                [
+                  "equilibrium_a10",
+                  505
+                ],
+                [
+                  "theta_axis10_residual_star",
+                  499
+                ],
+                [
+                  "c_a8_closure_residual",
+                  498
+                ],
+                [
+                  "theta_target",
+                  498
+                ],
+                [
+                  "axis10_ca8_natural_law_path_request",
+                  494
+                ],
+                [
+                  "stable_high_equilibrium_small_residual_state",
+                  494
+                ],
+                [
+                  "residual_zero_theorem",
+                  494
+                ],
+                [
+                  "dominant_residual_holder",
+                  494
+                ],
+                [
+                  "dominant_residual_value",
+                  494
+                ],
+                [
+                  "dominant_residual_share",
+                  494
+                ],
+                [
+                  "delaware",
+                  483
+                ],
+                [
+                  "lawlor",
+                  462
+                ],
+                [
+                  "singapore",
+                  462
+                ],
+                [
+                  "lawrence",
+                  357
+                ],
+                [
+                  "epistaxis",
+                  294
+                ],
+                [
+                  "chemotaxis",
+                  231
+                ],
+                [
+                  "agap2",
+                  168
+                ],
+                [
+                  "wroclaw",
+                  168
+                ],
+                [
+                  "arfgap1",
+                  147
+                ],
+                [
+                  "lawson",
+                  105
+                ],
+                [
+                  "iqgap1",
+                  84
+                ],
+                [
+                  "dlgap5",
+                  84
+                ],
+                [
+                  "praxis",
+                  84
+                ],
+                [
+                  "disclosures",
+                  84
+                ],
+                [
+                  "naturally",
+                  63
+                ],
+                [
+                  "arfgap3",
+                  63
+                ],
+                [
+                  "mdvfmkglskakegvvaaaektkqgvaeaagktkegvlyvgsktkegvvhgvatvaektkeqvtnvggavvtgvtavaqktvegagsiaaatgfvkkdqlgkneegapqegiledmpvdpdneayempseegyqdyepea",
+                  63
+                ],
+                [
+                  "mptpdattpqakgfrravseldakqaeaimvrgqgapgpsltgspwpgtaapaasytptprsprfigrrqsliedarkereaavaaaaaavpsepgdpleavafeekegkavlnllfspratkpsalsravkvfetfeakihhletrpaqrpraggphleyfvrlevrrgdlaallsgvrqvsedvrspagpkvpwfprkvseldkchhlvtkfdpdldldhpgfsdqvyrqrrkliaeiafqyrhgdpiprveytaeeiatwkevyttlkglyathacgehleafallerfsgyrednipqledvsrflkertgfqlrpvagllsardflaslafrvfqctqyirhasspmhspepdcchellghvpmladrtfaqfsqdiglaslgasdeeieklstlywftvefglckqngevkaygagllssygellhclseepeirafdpeaaavqpyqdqtyqsvyfvsesfsdakdklrsyasriqrpfsvkfdpytlaidvldspqavrrslegvqdeldtlahalsaig",
+                  63
+                ],
+                [
+                  "anaphylaxis",
+                  63
+                ],
+                [
+                  "sefermemory",
+                  51
+                ],
+                [
+                  "theta",
+                  43
+                ],
+                [
+                  "mleiclklvgckskkglssssscyleealqrpvasdfepqglseaarwnskenllagpsendpnlfvalydfvasgdntlsitkgeklrvlgynhngewceaqtkngqgwvpsnyitpvnslekhswyhgpvsrnaaeyllssgingsflvresesspgqrsislryegrvyhyrintasdgklyvssesrfntlaelvhhhstvadglittlhypapkrnkptvygvspnydkwemertditmkhklgggqygevyegvwkkysltvavktlkedtmeveeflkeaavmkeikhpnlvqllgvctreppfyiitefmtygnlldylrecnrqevnavvllymatqissameylekknfihrdlaarnclvgenhlvkvadfglsrlmtgdtytahagakfpikwtapeslaynkfsiksdvwafgvllweiatygmspypgidlsqvyellekdyrmerpegcpekvyelmracwqwnpsdrpsfaeihqafetmfqessisdevekelgkqgvrgavstllqapelptktrtsrraaehrdttdvpemphskgqgesdpldhepavspllprkergppegglnederllpkdkktnlfsalikkkkktaptppkrsssfremdgqperrgageeegrdisngalaftpldtadpakspkpsngagvpngalresggsgfrsphlwkksstltssrlatgeeegggssskrflrscsascvphgakdtewrsvtlprdlqstgrqfdsstfgghksekpalprkragenrsdqvtrgtvtppprlvkkneeaadevfkdimesspgssppnltpkplrrqvtvapasglphkeeagkgsalgtpaaaepvtptskagsgapggtskgpaeesrvrrhkhssespgrdkgklsrlkpapppppaasagkaggkpsqspsqeaageavlgaktkatslvdavnsdaakpsqpgeglkkpvlpatpkpqsakpsgtpispapvpstlpsassalagdqpsstafiplistrvslrktrqpperiasgaitkgvvldstealclaisrnseqmashsavleagknlytfcvsyvdsiqqmrnkfafreainklennlrelqicpatagsgpaatqdfskllssvkeisdivqr",
+                  42
+                ],
+                [
+                  "boguslawski",
+                  42
+                ],
+                [
+                  "mevqlglgrvyprppsktyrgafqnlfqsvreviqnpgprhpeaasaappgasllllqqqqqqqqqqqqqqqqqqqqqqqetsprqqqqqqgedgspqahrrgptgylvldeeqqpsqpqsalechpergcvpepgaavaaskglpqqlpappdeddsaapstlsllgptfpglsscsadlkdilseastmqllqqqqqeavsegsssgrareasgaptsskdnylggtstisdnakelckavsvsmglgvealehlspgeqlrgdcmyapllgvppavrptpcaplaeckgsllddsagkstedtaeyspfkggytkglegeslgcsgsaaagssgtlelpstlslyksgaldeaaayqsrdyynfplalagpppppppphphariklenpldygsawaaaaaqcrygdlaslhgagaagpgsgspsaaassswhtlftaeegqlygpcgggggggggggggggggggggggeagavapygytrppqglagqesdftapdvwypggmvsrvpypsptcvksemgpwmdsysgpygdmrletardhvlpidyyfppqktclicgdeasgchygaltcgsckvffkraaegkqkylcasrndctidkfrrkncpscrlrkcyeagmtlgarklkklgnlklqeegeassttspteettqkltvshiegyecqpiflnvleaiepgvvcaghdnnqpdsfaallsslnelgerqlvhvvkwakalpgfrnlhvddqmaviqyswmglmvfamgwrsftnvnsrmlyfapdlvfneyrmhksrmysqcvrmrhlsqefgwlqitpqeflcmkalllfsiipvdglknqkffdelrmnyikeldriiackrknptscsrrfyqltklldsvqpiarelhqftfdllikshmvsvdfpemmaeiisvqvpkilsgkvkpiyfhtq",
+                  42
+                ],
+                [
+                  "cdc42gap",
+                  42
+                ],
+                [
+                  "rap1gap",
+                  42
+                ],
+                [
+                  "gapdh",
+                  42
+                ]
+              ],
+              "C_a8_definition": "closure-residual holder remaining after gap and raw residual are small",
+              "spoken_display": "C_a8 NATURAL LAW PATH — SPOKEN KERNEL RESULT\n============================================================\n\nThe runtime accepted the C_a8 question and judged it.\n\nJudgment:\n  status: computed\n  seal:   6d6a09d87f63b408a17af164f53925345dd7af84cb2d94ee9cf7cbff4cfe704d\n\nRuntime:\n  records_read:    1000\n  cycles_used:     2\n  express_stable:  True\n  solver_outputs:  3\n  qpe_outputs:     2\n\nQuestion asked:\n  Using Sefer evidence and runtime kernels only, explain what C_a8 closure residual is, which atoms feed it, what natural law path could reduce C_a8 toward zero without forcing closure, and what next probe should be run.\n\nWhat C_a8 is:\n  C_a8 is the closure-residual holder inside the 10D axis landing.\n  It is not the whole instability.\n  It is the remaining closure pressure after gap and raw residual have already become small.\n\nWhat feeds C_a8:\n  energy_a3\n  torque_norm_a4\n  gap_a5\n  R_a7\n  unresolved_a9\n  equilibrium_a10\n  landing state\n  Sefer read-depth surface\n\nLatest state:\n  C_a8:             0.011\n  gap_a5:           0.001723084288078749\n  R_a7:             0.0006261954205161247\n  unresolved_a9:    0.013529356415102065\n  equilibrium_a10:  0.6328875746760656\n  landing:          OPEN_UNRESOLVED_HIGH_EQUILIBRIUM\n\nResidual distribution:\n  dominant: C_a8_closure_residual\n  C_a8:     0.011 (82.4014496671135%)\n  gap_a5:   0.001723084288078749 (12.907694839665012%)\n  R_a7:     0.0006261954205161247 (4.690855493221493%)\n\nNatural law path:\n  Do not force a closure cycle.\n  Keep reading Sefer surface.\n  Track C_a8 by read depth.\n  If C_a8 decays as read depth increases, then C_a8 is a surface-completion residual.\n  If C_a8 plateaus, then C_a8 is a missing-law residual.\n  If C_a8 rises, then C_a8 is a coupling/fork residual.\n\nNext probe:\n  Run a C_a8-only read-depth sweep.\n  Measure C_a8 at 1000, 2000, 5000, and 10000 reads.\n  Compare C_a8 decay against gap_a5 and R_a7.\n  The next target is theta_axis10_residual_star.\n\nShort answer:\n  The system told us where to go.\n  C_a8 is the next door.\n  The next law is discovered by watching whether C_a8 decays, plateaus, or forks under deeper Sefer read-depth.\n============================================================"
+            }
+          }
+        ]
+      }
+    },
+    "rxrx3_null_cause_classification_no_regex.json": {
+      "status": "success",
+      "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_null_cause_classification_no_regex.json",
+      "data": {
+        "kind": "rxrx3_null_cause_classification_no_regex",
+        "method": "JSON structure walk and filesystem existence checks only; no regex classification",
+        "counts_by_kind": {
+          "loaded_output_status_null": 15,
+          "raw_jsonl_status_null": 1,
+          "trace_status_null": 16,
+          "micro_sample_value_null": 1
+        },
+        "rows": [
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "loaded_output_status_null",
+            "json_path": "loaded_outputs[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+              "path_exists": false,
+              "data_is_null": true
+            }
+          },
+          {
+            "kind": "raw_jsonl_status_null",
+            "json_path": "raw_jsonl[<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl]",
+            "detail": {
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+              "path_exists": false,
+              "records_read": 0,
+              "sample_len": 0
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[1]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[2]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[3]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[4]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[5]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[6]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[7]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[8]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[9]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[10]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[11]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[12]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[13]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[14]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[15]",
+            "detail": {
+              "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+              "path_exists": false,
+              "payload_type": "NoneType",
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "trace_status_null",
+            "json_path": "trace[17]",
+            "detail": {
+              "stage": "raw_jsonl:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+              "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+              "path_exists": false,
+              "payload_type": null,
+              "error_field_is_null": true
+            }
+          },
+          {
+            "kind": "micro_sample_value_null",
+            "json_path": "$.Axis10.quarantine",
+            "detail": {
+              "meaning": "actual JSON null in micro sample"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "raw_jsonl": {
+    "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl": {
+      "status": "null",
+      "records_read": 0,
+      "sample": []
+    }
+  },
+  "all_parameters_unfiltered": {
+    "numeric_values_by_source": {
+      "themis_residual_identity_question_card.json": [],
+      "rxrx3_core_result_discovery_micro.json": [
+        {
+          "path": "event.sample_count",
+          "key": "sample_count",
+          "value": 222601
+        },
+        {
+          "path": "relation_mix_summary.sample_count",
+          "key": "sample_count",
+          "value": 222601
+        },
+        {
+          "path": "relation_mix_summary.time_count",
+          "key": "time_count",
+          "value": 222601
+        },
+        {
+          "path": "witness.observation.time_count",
+          "key": "time_count",
+          "value": 222601
+        },
+        {
+          "path": "witness.observation.sample_count",
+          "key": "sample_count",
+          "value": 222601
+        },
+        {
+          "path": "witness.observation.mix_energy_proxy",
+          "key": "mix_energy_proxy",
+          "value": 5769642.419650231
+        },
+        {
+          "path": "witness.delta_event_under_witness",
+          "key": "delta_event_under_witness",
+          "value": 0
+        },
+        {
+          "path": "witness.backaction",
+          "key": "backaction",
+          "value": 0
+        },
+        {
+          "path": "Axis10.norm_sq",
+          "key": "norm_sq",
+          "value": 0.9999999999999997
+        },
+        {
+          "path": "Axis10.tangent_condition",
+          "key": "tangent_condition",
+          "value": 0.0
+        },
+        {
+          "path": "Axis10.residual_budget.a9",
+          "key": "a9",
+          "value": 1.5282207919307684
+        },
+        {
+          "path": "Axis10.residual_budget.a5",
+          "key": "a5",
+          "value": 0.7638888888888888
+        },
+        {
+          "path": "Axis10.residual_budget.a7_8K",
+          "key": "a7_8K",
+          "value": 0.00022150707649535271
+        },
+        {
+          "path": "Axis10.residual_budget.a8_8K",
+          "key": "a8_8K",
+          "value": 0.7641103959653842
+        },
+        {
+          "path": "Axis10.residual_budget.visible_sum",
+          "key": "visible_sum",
+          "value": 1.5282207919307684
+        },
+        {
+          "path": "Axis10.residual_budget.delta_hidden_8K",
+          "key": "delta_hidden_8K",
+          "value": 0.0
+        },
+        {
+          "path": "Axis10.theta_axis10_residual_star.tuple.a9",
+          "key": "a9",
+          "value": 1.5282207919307684
+        },
+        {
+          "path": "Axis10.theta_axis10_residual_star.tuple.a5",
+          "key": "a5",
+          "value": 0.7638888888888888
+        },
+        {
+          "path": "Axis10.theta_axis10_residual_star.tuple.a7_8K",
+          "key": "a7_8K",
+          "value": 0.00022150707649535271
+        },
+        {
+          "path": "Axis10.theta_axis10_residual_star.tuple.a8_8K",
+          "key": "a8_8K",
+          "value": 0.7641103959653842
+        },
+        {
+          "path": "Axis10.theta_axis10_residual_star.tuple.delta_hidden_8K",
+          "key": "delta_hidden_8K",
+          "value": 0.0
+        },
+        {
+          "path": "closure.closure_signal_score",
+          "key": "closure_signal_score",
+          "value": 9
+        },
+        {
+          "path": "closure.closure_signal_possible",
+          "key": "closure_signal_possible",
+          "value": 9
+        },
+        {
+          "path": "runtime_ms",
+          "key": "runtime_ms",
+          "value": 4210
+        },
+        {
+          "path": "Sefer.landed",
+          "key": "landed",
+          "value": 1
+        },
+        {
+          "path": "outcome_counts.success",
+          "key": "success",
+          "value": 9
+        },
+        {
+          "path": "outcome_counts.null",
+          "key": "null",
+          "value": 0
+        },
+        {
+          "path": "outcome_counts.unknown",
+          "key": "unknown",
+          "value": 0
+        },
+        {
+          "path": "outcome_counts.nonmatch",
+          "key": "nonmatch",
+          "value": 0
+        },
+        {
+          "path": "outcome_counts.error",
+          "key": "error",
+          "value": 0
+        },
+        {
+          "path": "outcome_counts.timeout",
+          "key": "timeout",
+          "value": 0
+        },
+        {
+          "path": "outcome_counts.break",
+          "key": "break",
+          "value": 0
+        }
+      ],
+      "themis_universal_depth_speech_extract_deduped.json": [
+        {
+          "path": "records_in",
+          "key": "records_in",
+          "value": 98
+        },
+        {
+          "path": "records_out",
+          "key": "records_out",
+          "value": 1
+        },
+        {
+          "path": "records[0].card.latest.C_a8",
+          "key": "C_a8",
+          "value": 0.011
+        },
+        {
+          "path": "records[0].card.latest.R_a7",
+          "key": "R_a7",
+          "value": 0.0006261954205161247
+        },
+        {
+          "path": "records[0].card.latest.close_a6",
+          "key": "close_a6",
+          "value": 0.9982769157119212
+        },
+        {
+          "path": "records[0].card.latest.energy_a3",
+          "key": "energy_a3",
+          "value": -0.06772286138096062
+        },
+        {
+          "path": "records[0].card.latest.equilibrium_a10",
+          "key": "equilibrium_a10",
+          "value": 0.6328875746760656
+        },
+        {
+          "path": "records[0].card.latest.gap_a5",
+          "key": "gap_a5",
+          "value": 0.001723084288078749
+        },
+        {
+          "path": "records[0].card.latest.read_limit",
+          "key": "read_limit",
+          "value": 1000
+        },
+        {
+          "path": "records[0].card.latest.records_used",
+          "key": "records_used",
+          "value": 1000
+        },
+        {
+          "path": "records[0].card.latest.torque_norm_a4",
+          "key": "torque_norm_a4",
+          "value": 0.35571073135177705
+        },
+        {
+          "path": "records[0].card.latest.unresolved_a9",
+          "key": "unresolved_a9",
+          "value": 0.013529356415102065
+        },
+        {
+          "path": "records[0].card.residual_components.total",
+          "key": "total",
+          "value": 0.013349279708594872
+        },
+        {
+          "path": "records[0].card.residual_components.parts.C_a8_closure_residual",
+          "key": "C_a8_closure_residual",
+          "value": 0.011
+        },
+        {
+          "path": "records[0].card.residual_components.parts.gap_a5_surface_gap",
+          "key": "gap_a5_surface_gap",
+          "value": 0.001723084288078749
+        },
+        {
+          "path": "records[0].card.residual_components.parts.R_a7_raw_residual",
+          "key": "R_a7_raw_residual",
+          "value": 0.0006261954205161247
+        },
+        {
+          "path": "records[0].card.residual_components.percentages.C_a8_closure_residual",
+          "key": "C_a8_closure_residual",
+          "value": 82.4014496671135
+        },
+        {
+          "path": "records[0].card.residual_components.percentages.gap_a5_surface_gap",
+          "key": "gap_a5_surface_gap",
+          "value": 12.907694839665012
+        },
+        {
+          "path": "records[0].card.residual_components.percentages.R_a7_raw_residual",
+          "key": "R_a7_raw_residual",
+          "value": 4.690855493221493
+        },
+        {
+          "path": "records[0].card.measurable.records_read",
+          "key": "records_read",
+          "value": 1000
+        },
+        {
+          "path": "records[0].card.measurable.atoms_found",
+          "key": "atoms_found",
+          "value": 0
+        },
+        {
+          "path": "records[0].card.measurable.edges_created",
+          "key": "edges_created",
+          "value": 0
+        },
+        {
+          "path": "records[0].card.measurable.cycles_found",
+          "key": "cycles_found",
+          "value": 2
+        },
+        {
+          "path": "records[0].card.measurable.cycles_used",
+          "key": "cycles_used",
+          "value": 2
+        },
+        {
+          "path": "records[0].card.measurable.solver_outputs",
+          "key": "solver_outputs",
+          "value": 3
+        },
+        {
+          "path": "records[0].card.measurable.physics_outputs",
+          "key": "physics_outputs",
+          "value": 0
+        },
+        {
+          "path": "records[0].card.measurable.qpe_outputs",
+          "key": "qpe_outputs",
+          "value": 2
+        },
+        {
+          "path": "records[0].card.measurable.tool_calls",
+          "key": "tool_calls",
+          "value": 5
+        },
+        {
+          "path": "records[0].card.measurable.records_written",
+          "key": "records_written",
+          "value": 0
+        },
+        {
+          "path": "records[0].card.measurable.runtime_ms",
+          "key": "runtime_ms",
+          "value": 0
+        },
+        {
+          "path": "records[0].card.measurable.context_records_used",
+          "key": "context_records_used",
+          "value": 1000
+        }
+      ],
+      "rxrx3_null_cause_classification_no_regex.json": [
+        {
+          "path": "counts_by_kind.loaded_output_status_null",
+          "key": "loaded_output_status_null",
+          "value": 15
+        },
+        {
+          "path": "counts_by_kind.raw_jsonl_status_null",
+          "key": "raw_jsonl_status_null",
+          "value": 1
+        },
+        {
+          "path": "counts_by_kind.trace_status_null",
+          "key": "trace_status_null",
+          "value": 16
+        },
+        {
+          "path": "counts_by_kind.micro_sample_value_null",
+          "key": "micro_sample_value_null",
+          "value": 1
+        },
+        {
+          "path": "rows[15].detail.records_read",
+          "key": "records_read",
+          "value": 0
+        },
+        {
+          "path": "rows[15].detail.sample_len",
+          "key": "sample_len",
+          "value": 0
+        }
+      ]
+    },
+    "formulas_and_equations": [
+      {
+        "path": "question",
+        "key": "question",
+        "value": "What is theta_axis10_residual_star? What properties of the carried residual are present, hidden, unresolved, measurable, not surfaced, or waiting for deeper Sefer read-depth? Paint the canvas from Themis evidence only.",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "known_closed_state.remaining_object",
+        "key": "remaining_object",
+        "value": "theta_axis10_residual_star",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.universal_depth_anchor.sha256",
+        "key": "sha256",
+        "value": "163a0eceadaba55808c16e48834a91e1d938d44b4f105ed21b0df49e9f1290a9",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.universal_depth_json.sha256",
+        "key": "sha256",
+        "value": "f6b0042179a6f3e4f8838c07ca9c6fb52185283a63eeb20e27c4787126305463",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.null_classification.sha256",
+        "key": "sha256",
+        "value": "c05c72f52a3582bc1d0b2ab82468f2fa24658ec70ab78aa9d56906005597d491",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "Axis10.carrier",
+        "key": "carrier",
+        "value": "Axis10",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.name",
+        "key": "name",
+        "value": "theta_axis10_residual_star",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "closure.remaining_object",
+        "key": "remaining_object",
+        "value": "theta_axis10_residual_star",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.spoken",
+        "key": "spoken",
+        "value": "C_a8 NATURAL LAW PATH — SPOKEN KERNEL RESULT\n============================================================\n\nThe runtime accepted the C_a8 question and judged it.\n\nJudgment:\n  status: computed\n  seal:   6d6a09d87f63b408a17af164f53925345dd7af84cb2d94ee9cf7cbff4cfe704d\n\nRuntime:\n  records_read:    1000\n  cycles_used:     2\n  express_stable:  True\n  solver_outputs:  3\n  qpe_outputs:     2\n\nQuestion asked:\n  Using Sefer evidence and runtime kernels only, explain what C_a8 closure residual is, which atoms feed it, what natural law path could reduce C_a8 toward zero without forcing closure, and what next probe should be run.\n\nWhat C_a8 is:\n  C_a8 is the closure-residual holder inside the 10D axis landing.\n  It is not the whole instability.\n  It is the remaining closure pressure after gap and raw residual have already become small.\n\nWhat feeds C_a8:\n  energy_a3\n  torque_norm_a4\n  gap_a5\n  R_a7\n  unresolved_a9\n  equilibrium_a10\n  landing state\n  Sefer read-depth surface\n\nLatest state:\n  C_a8:             0.011\n  gap_a5:           0.001723084288078749\n  R_a7:             0.0006261954205161247\n  unresolved_a9:    0.013529356415102065\n  equilibrium_a10:  0.6328875746760656\n  landing:          OPEN_UNRESOLVED_HIGH_EQUILIBRIUM\n\nResidual distribution:\n  dominant: C_a8_closure_residual\n  C_a8:     0.011 (82.4014496671135%)\n  gap_a5:   0.001723084288078749 (12.907694839665012%)\n  R_a7:     0.0006261954205161247 (4.690855493221493%)\n\nNatural law path:\n  Do not force a closure cycle.\n  Keep reading Sefer surface.\n  Track C_a8 by read depth.\n  If C_a8 decays as read depth increases, then C_a8 is a surface-completion residual.\n  If C_a8 plateaus, then C_a8 is a missing-law residual.\n  If C_a8 rises, then C_a8 is a coupling/fork residual.\n\nNext probe:\n  Run a C_a8-only read-depth sweep.\n  Measure C_a8 at 1000, 2000, 5000, and 10000 reads.\n  Compare C_a8 decay against gap_a5 and R_a7.\n  The next target is theta_axis10_residual_star.\n\nShort answer:\n  The system told us where to go.\n  C_a8 is the next door.\n  The next law is discovered by watching whether C_a8 decays, plateaus, or forks under deeper Sefer read-depth.\n============================================================",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.spoken_display",
+        "key": "spoken_display",
+        "value": "C_a8 NATURAL LAW PATH — SPOKEN KERNEL RESULT\n============================================================\n\nThe runtime accepted the C_a8 question and judged it.\n\nJudgment:\n  status: computed\n  seal:   6d6a09d87f63b408a17af164f53925345dd7af84cb2d94ee9cf7cbff4cfe704d\n\nRuntime:\n  records_read:    1000\n  cycles_used:     2\n  express_stable:  True\n  solver_outputs:  3\n  qpe_outputs:     2\n\nQuestion asked:\n  Using Sefer evidence and runtime kernels only, explain what C_a8 closure residual is, which atoms feed it, what natural law path could reduce C_a8 toward zero without forcing closure, and what next probe should be run.\n\nWhat C_a8 is:\n  C_a8 is the closure-residual holder inside the 10D axis landing.\n  It is not the whole instability.\n  It is the remaining closure pressure after gap and raw residual have already become small.\n\nWhat feeds C_a8:\n  energy_a3\n  torque_norm_a4\n  gap_a5\n  R_a7\n  unresolved_a9\n  equilibrium_a10\n  landing state\n  Sefer read-depth surface\n\nLatest state:\n  C_a8:             0.011\n  gap_a5:           0.001723084288078749\n  R_a7:             0.0006261954205161247\n  unresolved_a9:    0.013529356415102065\n  equilibrium_a10:  0.6328875746760656\n  landing:          OPEN_UNRESOLVED_HIGH_EQUILIBRIUM\n\nResidual distribution:\n  dominant: C_a8_closure_residual\n  C_a8:     0.011 (82.4014496671135%)\n  gap_a5:   0.001723084288078749 (12.907694839665012%)\n  R_a7:     0.0006261954205161247 (4.690855493221493%)\n\nNatural law path:\n  Do not force a closure cycle.\n  Keep reading Sefer surface.\n  Track C_a8 by read depth.\n  If C_a8 decays as read depth increases, then C_a8 is a surface-completion residual.\n  If C_a8 plateaus, then C_a8 is a missing-law residual.\n  If C_a8 rises, then C_a8 is a coupling/fork residual.\n\nNext probe:\n  Run a C_a8-only read-depth sweep.\n  Measure C_a8 at 1000, 2000, 5000, and 10000 reads.\n  Compare C_a8 decay against gap_a5 and R_a7.\n  The next target is theta_axis10_residual_star.\n\nShort answer:\n  The system told us where to go.\n  C_a8 is the next door.\n  The next law is discovered by watching whether C_a8 decays, plateaus, or forks under deeper Sefer read-depth.\n============================================================",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "rows[32].json_path",
+        "key": "json_path",
+        "value": "$.Axis10.quarantine",
+        "source": "rxrx3_null_cause_classification_no_regex.json"
+      }
+    ],
+    "closure_fields": [
+      {
+        "path": "known_closed_state",
+        "key": "known_closed_state",
+        "value": {
+          "residual_closed_as": "CLOSED_WITH_RESIDUAL_CARRIED",
+          "remaining_object": "theta_axis10_residual_star"
+        },
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "known_closed_state.residual_closed_as",
+        "key": "residual_closed_as",
+        "value": "CLOSED_WITH_RESIDUAL_CARRIED",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "known_closed_state.remaining_object",
+        "key": "remaining_object",
+        "value": "theta_axis10_residual_star",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "closure",
+        "key": "closure",
+        "value": {
+          "verdict": "CLOSED_WITH_RESIDUAL_CARRIED",
+          "closure_signal_score": 9,
+          "closure_signal_possible": 9,
+          "remaining_object": "theta_axis10_residual_star"
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "closure.verdict",
+        "key": "verdict",
+        "value": "CLOSED_WITH_RESIDUAL_CARRIED",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "closure.closure_signal_score",
+        "key": "closure_signal_score",
+        "value": 9,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "closure.closure_signal_possible",
+        "key": "closure_signal_possible",
+        "value": 9,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "closure.remaining_object",
+        "key": "remaining_object",
+        "value": "theta_axis10_residual_star",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.C_a8_closure_residual",
+        "key": "C_a8_closure_residual",
+        "value": 0.011,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.C_a8_closure_residual",
+        "key": "C_a8_closure_residual",
+        "value": 82.4014496671135,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      }
+    ],
+    "outcome_fields": [
+      {
+        "path": "Axis10.theta_axis10_residual_star.status",
+        "key": "status",
+        "value": "RESIDUAL_CARRIED",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts",
+        "key": "outcome_counts",
+        "value": {
+          "success": 9,
+          "null": 0,
+          "unknown": 0,
+          "nonmatch": 0,
+          "error": 0,
+          "timeout": 0,
+          "break": 0
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.success",
+        "key": "success",
+        "value": 9,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.null",
+        "key": "null",
+        "value": 0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.unknown",
+        "key": "unknown",
+        "value": 0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.nonmatch",
+        "key": "nonmatch",
+        "value": 0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.error",
+        "key": "error",
+        "value": 0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.timeout",
+        "key": "timeout",
+        "value": 0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "outcome_counts.break",
+        "key": "break",
+        "value": 0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.judgment_status",
+        "key": "judgment_status",
+        "value": "computed",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "counts_by_kind.loaded_output_status_null",
+        "key": "loaded_output_status_null",
+        "value": 15,
+        "source": "rxrx3_null_cause_classification_no_regex.json"
+      },
+      {
+        "path": "counts_by_kind.raw_jsonl_status_null",
+        "key": "raw_jsonl_status_null",
+        "value": 1,
+        "source": "rxrx3_null_cause_classification_no_regex.json"
+      },
+      {
+        "path": "counts_by_kind.trace_status_null",
+        "key": "trace_status_null",
+        "value": 16,
+        "source": "rxrx3_null_cause_classification_no_regex.json"
+      }
+    ],
+    "axis10_fields": [
+      {
+        "path": "Axis10",
+        "key": "Axis10",
+        "value": {
+          "carrier": "Axis10",
+          "s_pi": [
+            2.42130914723405e-05,
+            0.99999999289192,
+            0.00011643850587615089,
+            3.438999589113451e-07,
+            3.4316661431226663e-06,
+            1.060696807874279e-06,
+            9.950901838313688e-10,
+            3.4326612333064977e-06,
+            6.865322466612995e-06,
+            1.5749422905978407e-07
+          ],
+          "norm_sq": 0.9999999999999997,
+          "unit_boundary_held": true,
+          "tangent_condition": 0.0,
+          "no_radial_drift": true,
+          "quarantine": null,
+          "residual_budget": {
+            "a9": 1.5282207919307684,
+            "a5": 0.7638888888888888,
+            "a7_8K": 0.00022150707649535271,
+            "a8_8K": 0.7641103959653842,
+            "visible_sum": 1.5282207919307684,
+            "delta_hidden_8K": 0.0
+          },
+          "theta_axis10_residual_star": {
+            "name": "theta_axis10_residual_star",
+            "status": "RESIDUAL_CARRIED",
+            "tuple": {
+              "a9": 1.5282207919307684,
+              "a5": 0.7638888888888888,
+              "a7_8K": 0.00022150707649535271,
+              "a8_8K": 0.7641103959653842,
+              "delta_hidden_8K": 0.0
+            }
+          }
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.carrier",
+        "key": "carrier",
+        "value": "Axis10",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.s_pi",
+        "key": "s_pi",
+        "value": [
+          2.42130914723405e-05,
+          0.99999999289192,
+          0.00011643850587615089,
+          3.438999589113451e-07,
+          3.4316661431226663e-06,
+          1.060696807874279e-06,
+          9.950901838313688e-10,
+          3.4326612333064977e-06,
+          6.865322466612995e-06,
+          1.5749422905978407e-07
+        ],
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.norm_sq",
+        "key": "norm_sq",
+        "value": 0.9999999999999997,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.unit_boundary_held",
+        "key": "unit_boundary_held",
+        "value": true,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.tangent_condition",
+        "key": "tangent_condition",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.no_radial_drift",
+        "key": "no_radial_drift",
+        "value": true,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.quarantine",
+        "key": "quarantine",
+        "value": null,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget",
+        "key": "residual_budget",
+        "value": {
+          "a9": 1.5282207919307684,
+          "a5": 0.7638888888888888,
+          "a7_8K": 0.00022150707649535271,
+          "a8_8K": 0.7641103959653842,
+          "visible_sum": 1.5282207919307684,
+          "delta_hidden_8K": 0.0
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a9",
+        "key": "a9",
+        "value": 1.5282207919307684,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a5",
+        "key": "a5",
+        "value": 0.7638888888888888,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a7_8K",
+        "key": "a7_8K",
+        "value": 0.00022150707649535271,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a8_8K",
+        "key": "a8_8K",
+        "value": 0.7641103959653842,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.visible_sum",
+        "key": "visible_sum",
+        "value": 1.5282207919307684,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.delta_hidden_8K",
+        "key": "delta_hidden_8K",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star",
+        "key": "theta_axis10_residual_star",
+        "value": {
+          "name": "theta_axis10_residual_star",
+          "status": "RESIDUAL_CARRIED",
+          "tuple": {
+            "a9": 1.5282207919307684,
+            "a5": 0.7638888888888888,
+            "a7_8K": 0.00022150707649535271,
+            "a8_8K": 0.7641103959653842,
+            "delta_hidden_8K": 0.0
+          }
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.name",
+        "key": "name",
+        "value": "theta_axis10_residual_star",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.status",
+        "key": "status",
+        "value": "RESIDUAL_CARRIED",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple",
+        "key": "tuple",
+        "value": {
+          "a9": 1.5282207919307684,
+          "a5": 0.7638888888888888,
+          "a7_8K": 0.00022150707649535271,
+          "a8_8K": 0.7641103959653842,
+          "delta_hidden_8K": 0.0
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a9",
+        "key": "a9",
+        "value": 1.5282207919307684,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a5",
+        "key": "a5",
+        "value": 0.7638888888888888,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a7_8K",
+        "key": "a7_8K",
+        "value": 0.00022150707649535271,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a8_8K",
+        "key": "a8_8K",
+        "value": 0.7641103959653842,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.delta_hidden_8K",
+        "key": "delta_hidden_8K",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.latest.C_a8",
+        "key": "C_a8",
+        "value": 0.011,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.R_a7",
+        "key": "R_a7",
+        "value": 0.0006261954205161247,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.close_a6",
+        "key": "close_a6",
+        "value": 0.9982769157119212,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.energy_a3",
+        "key": "energy_a3",
+        "value": -0.06772286138096062,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.equilibrium_a10",
+        "key": "equilibrium_a10",
+        "value": 0.6328875746760656,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.gap_a5",
+        "key": "gap_a5",
+        "value": 0.001723084288078749,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.torque_norm_a4",
+        "key": "torque_norm_a4",
+        "value": 0.35571073135177705,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.latest.unresolved_a9",
+        "key": "unresolved_a9",
+        "value": 0.013529356415102065,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.C_a8_closure_residual",
+        "key": "C_a8_closure_residual",
+        "value": 0.011,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.gap_a5_surface_gap",
+        "key": "gap_a5_surface_gap",
+        "value": 0.001723084288078749,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.R_a7_raw_residual",
+        "key": "R_a7_raw_residual",
+        "value": 0.0006261954205161247,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.C_a8_closure_residual",
+        "key": "C_a8_closure_residual",
+        "value": 82.4014496671135,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.gap_a5_surface_gap",
+        "key": "gap_a5_surface_gap",
+        "value": 12.907694839665012,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.R_a7_raw_residual",
+        "key": "R_a7_raw_residual",
+        "value": 4.690855493221493,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.C_a8_definition",
+        "key": "C_a8_definition",
+        "value": "closure-residual holder remaining after gap and raw residual are small",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      }
+    ],
+    "residual_fields": [
+      {
+        "path": "known_closed_state.residual_closed_as",
+        "key": "residual_closed_as",
+        "value": "CLOSED_WITH_RESIDUAL_CARRIED",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "Axis10.residual_budget",
+        "key": "residual_budget",
+        "value": {
+          "a9": 1.5282207919307684,
+          "a5": 0.7638888888888888,
+          "a7_8K": 0.00022150707649535271,
+          "a8_8K": 0.7641103959653842,
+          "visible_sum": 1.5282207919307684,
+          "delta_hidden_8K": 0.0
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a9",
+        "key": "a9",
+        "value": 1.5282207919307684,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a5",
+        "key": "a5",
+        "value": 0.7638888888888888,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a7_8K",
+        "key": "a7_8K",
+        "value": 0.00022150707649535271,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a8_8K",
+        "key": "a8_8K",
+        "value": 0.7641103959653842,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.visible_sum",
+        "key": "visible_sum",
+        "value": 1.5282207919307684,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.delta_hidden_8K",
+        "key": "delta_hidden_8K",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star",
+        "key": "theta_axis10_residual_star",
+        "value": {
+          "name": "theta_axis10_residual_star",
+          "status": "RESIDUAL_CARRIED",
+          "tuple": {
+            "a9": 1.5282207919307684,
+            "a5": 0.7638888888888888,
+            "a7_8K": 0.00022150707649535271,
+            "a8_8K": 0.7641103959653842,
+            "delta_hidden_8K": 0.0
+          }
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.name",
+        "key": "name",
+        "value": "theta_axis10_residual_star",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.status",
+        "key": "status",
+        "value": "RESIDUAL_CARRIED",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple",
+        "key": "tuple",
+        "value": {
+          "a9": 1.5282207919307684,
+          "a5": 0.7638888888888888,
+          "a7_8K": 0.00022150707649535271,
+          "a8_8K": 0.7641103959653842,
+          "delta_hidden_8K": 0.0
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a9",
+        "key": "a9",
+        "value": 1.5282207919307684,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a5",
+        "key": "a5",
+        "value": 0.7638888888888888,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a7_8K",
+        "key": "a7_8K",
+        "value": 0.00022150707649535271,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a8_8K",
+        "key": "a8_8K",
+        "value": 0.7641103959653842,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.delta_hidden_8K",
+        "key": "delta_hidden_8K",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.residual_components",
+        "key": "residual_components",
+        "value": {
+          "total": 0.013349279708594872,
+          "parts": {
+            "C_a8_closure_residual": 0.011,
+            "gap_a5_surface_gap": 0.001723084288078749,
+            "R_a7_raw_residual": 0.0006261954205161247
+          },
+          "percentages": {
+            "C_a8_closure_residual": 82.4014496671135,
+            "gap_a5_surface_gap": 12.907694839665012,
+            "R_a7_raw_residual": 4.690855493221493
+          },
+          "dominant": "C_a8_closure_residual"
+        },
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.total",
+        "key": "total",
+        "value": 0.013349279708594872,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts",
+        "key": "parts",
+        "value": {
+          "C_a8_closure_residual": 0.011,
+          "gap_a5_surface_gap": 0.001723084288078749,
+          "R_a7_raw_residual": 0.0006261954205161247
+        },
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.C_a8_closure_residual",
+        "key": "C_a8_closure_residual",
+        "value": 0.011,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.gap_a5_surface_gap",
+        "key": "gap_a5_surface_gap",
+        "value": 0.001723084288078749,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.parts.R_a7_raw_residual",
+        "key": "R_a7_raw_residual",
+        "value": 0.0006261954205161247,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages",
+        "key": "percentages",
+        "value": {
+          "C_a8_closure_residual": 82.4014496671135,
+          "gap_a5_surface_gap": 12.907694839665012,
+          "R_a7_raw_residual": 4.690855493221493
+        },
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.C_a8_closure_residual",
+        "key": "C_a8_closure_residual",
+        "value": 82.4014496671135,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.gap_a5_surface_gap",
+        "key": "gap_a5_surface_gap",
+        "value": 12.907694839665012,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.percentages.R_a7_raw_residual",
+        "key": "R_a7_raw_residual",
+        "value": 4.690855493221493,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.residual_components.dominant",
+        "key": "dominant",
+        "value": "C_a8_closure_residual",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      }
+    ],
+    "shape_vector_wave_fields": [],
+    "frequency_fields": [],
+    "qpe_quantum_shot_fields": [
+      {
+        "path": "Axis10.residual_budget.a7_8K",
+        "key": "a7_8K",
+        "value": 0.00022150707649535271,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.a8_8K",
+        "key": "a8_8K",
+        "value": 0.7641103959653842,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.residual_budget.delta_hidden_8K",
+        "key": "delta_hidden_8K",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a7_8K",
+        "key": "a7_8K",
+        "value": 0.00022150707649535271,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.a8_8K",
+        "key": "a8_8K",
+        "value": 0.7641103959653842,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Axis10.theta_axis10_residual_star.tuple.delta_hidden_8K",
+        "key": "delta_hidden_8K",
+        "value": 0.0,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.measurable.qpe_outputs",
+        "key": "qpe_outputs",
+        "value": 2,
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      }
+    ],
+    "sefer_ledger_fields": [
+      {
+        "path": "source_hashes.sefer_english",
+        "key": "sefer_english",
+        "value": {
+          "path": "runs\\rxrx3_core_discovery_micro_sandbox\\RXRX3_SEFER_ENGLISH_TRANSLATION.md",
+          "exists": true,
+          "sha256": "290d900758dcc4826f7da7cf8f0e2720e760ed41c6e784daec5530f9d243e76f"
+        },
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.sefer_english.path",
+        "key": "path",
+        "value": "runs\\rxrx3_core_discovery_micro_sandbox\\RXRX3_SEFER_ENGLISH_TRANSLATION.md",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.sefer_english.exists",
+        "key": "exists",
+        "value": true,
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.sefer_english.sha256",
+        "key": "sha256",
+        "value": "290d900758dcc4826f7da7cf8f0e2720e760ed41c6e784daec5530f9d243e76f",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "Sefer",
+        "key": "Sefer",
+        "value": {
+          "landed": 1,
+          "source": "axis10_estuary_no_narrow_orchestration",
+          "seal": "270968ffcd29de57b4a7fcb054d8e518fec610d7842b118f5645d8438b2c447b",
+          "db_path": "<private-sefer-db>"
+        },
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Sefer.landed",
+        "key": "landed",
+        "value": 1,
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Sefer.source",
+        "key": "source",
+        "value": "axis10_estuary_no_narrow_orchestration",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Sefer.seal",
+        "key": "seal",
+        "value": "270968ffcd29de57b4a7fcb054d8e518fec610d7842b118f5645d8438b2c447b",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "Sefer.db_path",
+        "key": "db_path",
+        "value": "<private-sefer-db>",
+        "source": "rxrx3_core_result_discovery_micro.json"
+      },
+      {
+        "path": "records[0].card.latest.landing",
+        "key": "landing",
+        "value": "OPEN_UNRESOLVED_HIGH_EQUILIBRIUM",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      },
+      {
+        "path": "records[0].card.judgment_seal",
+        "key": "judgment_seal",
+        "value": "6d6a09d87f63b408a17af164f53925345dd7af84cb2d94ee9cf7cbff4cfe704d",
+        "source": "themis_universal_depth_speech_extract_deduped.json"
+      }
+    ],
+    "module_fields_unfiltered": [],
+    "callable_fields_unfiltered": [
+      {
+        "path": "source_hashes.null_classification",
+        "key": "null_classification",
+        "value": {
+          "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_null_cause_classification_no_regex.json",
+          "exists": true,
+          "sha256": "c05c72f52a3582bc1d0b2ab82468f2fa24658ec70ab78aa9d56906005597d491"
+        },
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.null_classification.path",
+        "key": "path",
+        "value": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_null_cause_classification_no_regex.json",
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.null_classification.exists",
+        "key": "exists",
+        "value": true,
+        "source": "themis_residual_identity_question_card.json"
+      },
+      {
+        "path": "source_hashes.null_classification.sha256",
+        "key": "sha256",
+        "value": "c05c72f52a3582bc1d0b2ab82468f2fa24658ec70ab78aa9d56906005597d491",
+        "source": "themis_residual_identity_question_card.json"
+      }
+    ]
+  },
+  "core_metrics": {
+    "a5_gap_surface": 0.7638888888888888,
+    "a7_raw_or_phase_residual": 0.00022150707649535271,
+    "a8_boundary_or_closure_residual": 0.7641103959653842,
+    "a9_unresolved_or_void_residual": 1.5282207919307684,
+    "a10_equilibrium_or_rest": 0.6328875746760656,
+    "visible_sum": 1.5282207919307684,
+    "delta_hidden": 0.0,
+    "theta_object": "theta_axis10_residual_star",
+    "residual_formula": "a9 = |a5| + |a7| + |a8| + delta_hidden",
+    "equilibrium_formula": "a10 = 1 / (1 + |a3| + a4 + a9)"
+  },
+  "closure_summary": {
+    "verdicts": [
+      {
+        "source": "rxrx3_core_result_discovery_micro.json",
+        "path": "closure.verdict",
+        "value": "CLOSED_WITH_RESIDUAL_CARRIED"
+      }
+    ],
+    "scores": [
+      {
+        "source": "rxrx3_core_result_discovery_micro.json",
+        "path": "closure.closure_signal_score",
+        "value": 9
+      },
+      {
+        "source": "rxrx3_core_result_discovery_micro.json",
+        "path": "closure.closure_signal_possible",
+        "value": 9
+      }
+    ]
+  },
+  "trace": [
+    {
+      "ts_ms": 1781894068322,
+      "stage": "start",
+      "status": "success",
+      "payload": {
+        "project_dir": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox",
+        "out_dir": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\residual_identity_voice"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\full_rich_result.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_no_narrow\\orchestration_result.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\ibm_qshot_result.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_from_full_rich.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_estuary_ibm_qshot\\axis10_orchestration_result.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_final_research_architecture\\themis_axis10_final_research_architecture_closure_package.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_discovery.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_all_direction_system_voice\\axis10_closure_signal_truth_guidance.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\axis10_natural_law_residual_discovery\\natural_law_residual_discovery.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\summary.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\counts.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\failures.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\module_inventory.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\callable_inventory.json",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068323,
+      "stage": "load:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+        "type": "NoneType"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068324,
+      "stage": "load:themis_residual_identity_question_card.json",
+      "status": "success",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\themis_residual_identity_question_card.json",
+        "type": "dict"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068324,
+      "stage": "load:rxrx3_core_result_discovery_micro.json",
+      "status": "success",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_core_result_discovery_micro.json",
+        "type": "dict"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068324,
+      "stage": "load:themis_universal_depth_speech_extract_deduped.json",
+      "status": "success",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract_deduped.json",
+        "type": "dict"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068324,
+      "stage": "load:rxrx3_null_cause_classification_no_regex.json",
+      "status": "success",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_null_cause_classification_no_regex.json",
+        "type": "dict"
+      },
+      "error": null
+    },
+    {
+      "ts_ms": 1781894068324,
+      "stage": "raw_jsonl:<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl",
+      "status": "null",
+      "payload": {
+        "path": "<private-themis-root>\\runs\\rxrx3_core_discovery_micro_sandbox\\runs\\themis_no_narrow_L1_L52_full_audit\\raw_records.jsonl"
+      },
+      "error": null
+    }
+  ],
+  "outcome_counts": {
+    "success": 5,
+    "null": 16,
+    "unknown": 0,
+    "nonmatch": 0,
+    "error": 0,
+    "timeout": 0,
+    "break": 0
+  },
+  "kernel_voice": "AXIS10 ESTUARY DISCOVERY / SEFER KERNEL VOICE\n========================================================================\n\nSYSTEM POSITION\nThe system carries the full no-narrow trace.\nRaw, blank, null, error, timeout, break, nonmatch, unknown, and success states are retained as evidence.\nNo function, callable, module, field, or raw output is intentionally filtered.\n\nOBJECT\nNamed carried object: theta_axis10_residual_star\n\nRESIDUAL / ARITHMETIC OF TRUTH\nFormula: a9 = |a5| + |a7| + |a8| + delta_hidden\na5 gap/surface: 0.7638888888888888\na7 raw/phase residual: 0.00022150707649535271\na8 boundary/closure residual: 0.7641103959653842\na9 unresolved/void residual: 1.5282207919307684\nvisible_sum: 1.5282207919307684\ndelta_hidden: 0.0\n\nEQUILIBRIUM\nFormula: a10 = 1 / (1 + |a3| + a4 + a9)\na10 equilibrium/rest: 0.6328875746760656\n\nCLOSURE\nClosure verdicts found: [{'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.verdict', 'value': 'CLOSED_WITH_RESIDUAL_CARRIED'}]\nClosure scores found: [{'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.closure_signal_score', 'value': 9}, {'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.closure_signal_possible', 'value': 9}]\n\nOUTCOME COUNTS\nsuccess: 5\nnull: 16\nunknown: 0\nnonmatch: 0\nerror: 0\ntimeout: 0\nbreak: 0\n\nKERNEL STATEMENT\nThe kernels may voice from the preserved evidence only.\nThe voice includes measured values, wave/frequency fields, residual budget, equilibrium, named object, shape/vector data, formulas, raw JSON, nulls, errors, modules, and callables.\nThe system lands the finding as a carried-residual discovery record across all available depth levels.",
+  "seal_sha256": "f87cf3e0925e5a97d2c556db95aa69dbf9fe9519eda8da229e001b073f3dcaa0"
+}

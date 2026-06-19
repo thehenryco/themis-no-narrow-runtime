@@ -1,0 +1,47 @@
+{
+  "kind": "themis_residual_identity_question_card",
+  "mode": "ASK_ONLY_DO_NOT_ANSWER_IN_CHAT",
+  "instruction": [
+    "Use Sefer memory and runtime kernels only.",
+    "Report what theta_axis10_residual_star is from carried evidence.",
+    "Reveal only properties emitted by Themis or newly computed by the runtime.",
+    "Do not infer biological meaning from Chat language.",
+    "Do not force closure.",
+    "Do not translate unknown into known vocabulary.",
+    "If a property is hidden, emit it as hidden/not surfaced/unknown with path and reason.",
+    "If a property is measurable, emit the value, source path, atom, and seal.",
+    "If a property requires deeper read-depth, emit the next read-depth probe instead of guessing."
+  ],
+  "question": "What is theta_axis10_residual_star? What properties of the carried residual are present, hidden, unresolved, measurable, not surfaced, or waiting for deeper Sefer read-depth? Paint the canvas from Themis evidence only.",
+  "known_closed_state": {
+    "residual_closed_as": "CLOSED_WITH_RESIDUAL_CARRIED",
+    "remaining_object": "theta_axis10_residual_star"
+  },
+  "source_hashes": {
+    "rxrx3_micro": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_core_result_discovery_micro.json",
+      "exists": true,
+      "sha256": "03c16a22614d1e89d42150be8b56900e14bee4040e7f0117bbfdc32b7ac90685"
+    },
+    "sefer_english": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\RXRX3_SEFER_ENGLISH_TRANSLATION.md",
+      "exists": true,
+      "sha256": "290d900758dcc4826f7da7cf8f0e2720e760ed41c6e784daec5530f9d243e76f"
+    },
+    "universal_depth_anchor": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\THEMIS_UNIVERSAL_DEPTH_SPEECH_ANCHOR.md",
+      "exists": true,
+      "sha256": "163a0eceadaba55808c16e48834a91e1d938d44b4f105ed21b0df49e9f1290a9"
+    },
+    "universal_depth_json": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract_deduped.json",
+      "exists": true,
+      "sha256": "f6b0042179a6f3e4f8838c07ca9c6fb52185283a63eeb20e27c4787126305463"
+    },
+    "null_classification": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_null_cause_classification_no_regex.json",
+      "exists": true,
+      "sha256": "c05c72f52a3582bc1d0b2ab82468f2fa24658ec70ab78aa9d56906005597d491"
+    }
+  }
+}

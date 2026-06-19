@@ -1,0 +1,75 @@
+{
+  "kind": "themis_meaning_inference_question_card",
+  "mode": "ASK_ONLY_THEMIS_INFERENCE_NO_CHAT_MEANING",
+  "instruction": [
+    "Use Sefer memory, runtime kernels, residual voice package, translation surface index, and full surface layer voice only.",
+    "Infer what the carried residual means from emitted fields only.",
+    "Do not let Chat supply the meaning.",
+    "Do not infer biology unless the field relation is emitted.",
+    "Do not force a direct atom-to-observed_collision link if source fields do not emit one.",
+    "If inference is possible, label it THEMIS_INFERRED and cite the source paths used.",
+    "If meaning is not emitted or not inferable, label it NOT_EMITTED.",
+    "If an atom remains abstract-layer-only, preserve that status.",
+    "If a surface is present but not linked to an atom, preserve SURFACE_PRESENT_NO_ATOM_LINK.",
+    "Return a meaning canvas with evidence paths, not a prose claim."
+  ],
+  "question": "Given the full surface layer where residual atoms are ABSTRACT_LAYER_ONLY and visible fields are SURFACE_PRESENT_NO_ATOM_LINK, what meaning, if any, does Themis infer for theta_axis10_residual_star? Report the meaning canvas from Themis evidence only.",
+  "required_output_shape": {
+    "meaning_status": [
+      "THEMIS_INFERRED",
+      "NOT_EMITTED",
+      "NOT_INFERABLE_FROM_CURRENT_SURFACE",
+      "REQUIRES_DEEPER_SEFER_READ"
+    ],
+    "rows": [
+      {
+        "surface": null,
+        "atom": null,
+        "relation_status": null,
+        "meaning_status": null,
+        "meaning_text": null,
+        "source_paths": [],
+        "seal_or_hash": null
+      }
+    ],
+    "must_preserve": [
+      "ABSTRACT_LAYER_ONLY",
+      "SURFACE_PRESENT_NO_ATOM_LINK",
+      "NULL_SURFACE",
+      "CLOSED_WITH_RESIDUAL_CARRIED",
+      "theta_axis10_residual_star"
+    ]
+  },
+  "source_hashes": {
+    "full_surface_layer_voice": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_full_surface_layer_voice.json",
+      "exists": true,
+      "sha256": "aa678c270d50f18cafbe4cc76f67912010e55d84cc3a9af8006ac74c5948c3a1"
+    },
+    "surface_layer_md": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\THEMIS_FULL_SURFACE_LAYER_VOICE.md",
+      "exists": true,
+      "sha256": "489ebf8576dd4b49a1f8c1d8bc6aa7375c644ca05f37dc9d983af89f1dcb86f0"
+    },
+    "residual_voice_package": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\residual_identity_voice\\axis10_estuary_discovery_sefer_kernel_voice_package.json",
+      "exists": true,
+      "sha256": "383ac72d9b83dbacb41bff4b91fcc8187eead1a6a1cc6e7298b88c6a0b7af807"
+    },
+    "translation_surface_index": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_residual_translation_surface_index.json",
+      "exists": true,
+      "sha256": "e7bcfd77e8b777f6f5f9b63757dc8a8ad1c98eea5fbb02004177ca47e9dbccb9"
+    },
+    "rxrx3_micro": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\rxrx3_core_result_discovery_micro.json",
+      "exists": true,
+      "sha256": "03c16a22614d1e89d42150be8b56900e14bee4040e7f0117bbfdc32b7ac90685"
+    },
+    "universal_depth": {
+      "path": "runs\\rxrx3_core_discovery_micro_sandbox\\themis_universal_depth_speech_extract_deduped.json",
+      "exists": true,
+      "sha256": "f6b0042179a6f3e4f8838c07ca9c6fb52185283a63eeb20e27c4787126305463"
+    }
+  }
+}

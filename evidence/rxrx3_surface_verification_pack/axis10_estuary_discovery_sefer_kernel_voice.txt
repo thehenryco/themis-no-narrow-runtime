@@ -1,0 +1,41 @@
+AXIS10 ESTUARY DISCOVERY / SEFER KERNEL VOICE
+========================================================================
+
+SYSTEM POSITION
+The system carries the full no-narrow trace.
+Raw, blank, null, error, timeout, break, nonmatch, unknown, and success states are retained as evidence.
+No function, callable, module, field, or raw output is intentionally filtered.
+
+OBJECT
+Named carried object: theta_axis10_residual_star
+
+RESIDUAL / ARITHMETIC OF TRUTH
+Formula: a9 = |a5| + |a7| + |a8| + delta_hidden
+a5 gap/surface: 0.7638888888888888
+a7 raw/phase residual: 0.00022150707649535271
+a8 boundary/closure residual: 0.7641103959653842
+a9 unresolved/void residual: 1.5282207919307684
+visible_sum: 1.5282207919307684
+delta_hidden: 0.0
+
+EQUILIBRIUM
+Formula: a10 = 1 / (1 + |a3| + a4 + a9)
+a10 equilibrium/rest: 0.6328875746760656
+
+CLOSURE
+Closure verdicts found: [{'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.verdict', 'value': 'CLOSED_WITH_RESIDUAL_CARRIED'}]
+Closure scores found: [{'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.closure_signal_score', 'value': 9}, {'source': 'rxrx3_core_result_discovery_micro.json', 'path': 'closure.closure_signal_possible', 'value': 9}]
+
+OUTCOME COUNTS
+success: 5
+null: 16
+unknown: 0
+nonmatch: 0
+error: 0
+timeout: 0
+break: 0
+
+KERNEL STATEMENT
+The kernels may voice from the preserved evidence only.
+The voice includes measured values, wave/frequency fields, residual budget, equilibrium, named object, shape/vector data, formulas, raw JSON, nulls, errors, modules, and callables.
+The system lands the finding as a carried-residual discovery record across all available depth levels.

@@ -1,0 +1,77 @@
+[
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\THEMIS_FINAL_FULL_CURRENT_SURFACE_VERIFICATION_VOICE.md",
+    "status": "published",
+    "sha256": "c0644770be3b6a00529bb7f955f8d1f6dbe658d278dabe1913c0e8c96baa467b"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\themis_final_full_current_surface_verification_voice.json",
+    "status": "published",
+    "sha256": "c7567b3a57407fc4b9b3bc41e4a186922558ff78311a6c70281401a92e0d4f99"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\RXRX3_BIOLOGICAL_FRONTIER_SEFER_ENGLISH.md",
+    "status": "published",
+    "sha256": "f83a3b68afb5ae3c1e786af03ad8fb11ba77265587b1b30ee07ec867da2e1fef"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\rxrx3_biological_frontier_sefer_english.json",
+    "status": "published",
+    "sha256": "e5624da5a3c082b027b1b607308d59e57244a18650d41f9f4b5a757fb173f16d"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\THEMIS_FULL_SURFACE_LAYER_VOICE.md",
+    "status": "published",
+    "sha256": "f603506494cbca1c21c94a64128acde4cd6f6ed70e99d443b96bf00f62c288ec"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\themis_full_surface_layer_voice.json",
+    "status": "published",
+    "sha256": "c8b86611dbebfffbe11ce0944c8e61efc9c320d3920abf52e45ff60512cad3aa"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\THEMIS_RESIDUAL_TRANSLATION_SURFACE_INDEX.md",
+    "status": "published",
+    "sha256": "e615f11320ec750eef8402a5699b6f6992ec058282f3dfb694ff41d983481d3c"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\themis_residual_translation_surface_index.json",
+    "status": "published",
+    "sha256": "a33cdd93afde3788300dd6e05270f2c5b02723d95e8cbf8c31ded6ceef8089ed"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\rxrx3_core_result_discovery_micro.json",
+    "status": "published",
+    "sha256": "f19269a81e49c7fd637fe8a5e28142ac3a0b4b713115484bff02879cd12a3e67"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\rxrx3_null_cause_classification_no_regex.json",
+    "status": "published",
+    "sha256": "efb87e161a00e1c5a8684c5b72e34e3474b04a2b6ff5aa1a799103b02668d3a3"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\themis_residual_identity_question_card.json",
+    "status": "published",
+    "sha256": "858e272122b879f50d4a7a0229166166d3862a251426ef7a71197dae902cc304"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\themis_meaning_inference_question_card.json",
+    "status": "published",
+    "sha256": "ac075cc6ed8e410a729e15d57d2524032ef2c77d8104daffe211b17d0ded8964"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\themis_surface_meaning_english_question_card.json",
+    "status": "published",
+    "sha256": "67b70766dfa96a5ed5370d31da8edca89fba76a1821beeaabd0b0147eb93a5e0"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\axis10_estuary_discovery_sefer_kernel_voice.txt",
+    "status": "published",
+    "sha256": "4a826c49775eadad3e19dae53615a91488e47587797aa5c71f973764594bcee3"
+  },
+  {
+    "file": "evidence\\rxrx3_surface_verification_pack\\axis10_estuary_discovery_sefer_kernel_voice_package.json",
+    "status": "published",
+    "sha256": "320d91d3f3ee6c4a09c9dceeee0fa231e317bcef3e3be3385579ff168c626add"
+  }
+]

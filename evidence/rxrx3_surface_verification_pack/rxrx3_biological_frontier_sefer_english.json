@@ -1,0 +1,175 @@
+{
+  "kind": "rxrx3_biological_frontier_sefer_english",
+  "mode": "SOURCE_FIELD_TRANSLATION_AND_QUESTION_ROUTING",
+  "guardrail": "No new biological mechanism is asserted. This record translates source fields into scientist-facing questions and next checks.",
+  "dataset": "RxRx3-core",
+  "sample_count": 222601,
+  "observed_event": {
+    "digest": "923e8f259a606dd40355f0fe0b2cecc473dd3755cf7b3ed9c2403c34e2423d60",
+    "identity_a": "PLK1 / PLK1_guide_1 / CRISPR Gene Positive Controls",
+    "identity_b": "AKR1C3 / AKR1C3_guide_5 / Query guides",
+    "meaning": "same 384-feature embedding digest across distinct metadata identities"
+  },
+  "metadata_source": "metadata_rxrx3_core.csv",
+  "target_rows": [
+    {
+      "well_id": "gene-134_2_L39",
+      "experiment_name": "gene-134",
+      "plate": "2",
+      "address": "L39",
+      "gene": "PLK1",
+      "treatment": "PLK1_guide_1",
+      "SMILES": "",
+      "concentration": "",
+      "perturbation_type": "CRISPR",
+      "cell_type": "HUVEC",
+      "well_type_label": "CRISPR Gene Positive Controls"
+    },
+    {
+      "well_id": "gene-134_2_N26",
+      "experiment_name": "gene-134",
+      "plate": "2",
+      "address": "N26",
+      "gene": "AKR1C3",
+      "treatment": "AKR1C3_guide_5",
+      "SMILES": "",
+      "concentration": "",
+      "perturbation_type": "CRISPR",
+      "cell_type": "HUVEC",
+      "well_type_label": "Query guides"
+    }
+  ],
+  "common_fields_between_target_rows": {
+    "SMILES": "",
+    "cell_type": "HUVEC",
+    "concentration": "",
+    "experiment_name": "gene-134",
+    "perturbation_type": "CRISPR",
+    "plate": "2"
+  },
+  "different_fields_between_target_rows": {
+    "address": [
+      "L39",
+      "N26"
+    ],
+    "gene": [
+      "PLK1",
+      "AKR1C3"
+    ],
+    "treatment": [
+      "PLK1_guide_1",
+      "AKR1C3_guide_5"
+    ],
+    "well_id": [
+      "gene-134_2_L39",
+      "gene-134_2_N26"
+    ],
+    "well_type_label": [
+      "CRISPR Gene Positive Controls",
+      "Query guides"
+    ]
+  },
+  "runtime_state": {
+    "identity_preserved": true,
+    "witness_operator": "witness_passive_observation",
+    "delta_event_under_witness": 0,
+    "backaction": 0,
+    "source_unchanged": true,
+    "unit_boundary_held": true,
+    "no_radial_drift": true,
+    "carried_object": "theta_axis10_residual_star",
+    "carried_object_status": "RESIDUAL_CARRIED",
+    "closure_verdict": "CLOSED_WITH_RESIDUAL_CARRIED",
+    "closure_score": {
+      "score": 9,
+      "possible": 9
+    },
+    "residual_budget": {
+      "a9": 1.5282207919307684,
+      "a5": 0.7638888888888888,
+      "a7_8K": 0.00022150707649535271,
+      "a8_8K": 0.7641103959653842,
+      "visible_sum": 1.5282207919307684,
+      "delta_hidden_8K": 0.0
+    }
+  },
+  "frontier_paths_for_scientist": [
+    {
+      "path": "identity-accounting path",
+      "source_fields": [
+        "micro_sample.observed_collision.identity_a",
+        "micro_sample.observed_collision.identity_b",
+        "micro_sample.relation_mix_summary.identity_preserved"
+      ],
+      "question_opened": "When two distinct metadata identities share one embedding digest, what identity relation must downstream analysis preserve?",
+      "why_it_matters": "The sample reports identity preservation as true while the representation digest is shared.",
+      "next_checks": [
+        "Keep well_id, gene, treatment, plate, address, cell_type, perturbation_type, and well_type_label attached to every embedding row.",
+        "Do not use embedding equality alone as biological identity equality.",
+        "Report the equality as a representation event plus metadata distinction."
+      ]
+    },
+    {
+      "path": "metadata-alignment path",
+      "source_fields": [
+        "metadata rows for gene-134_2_L39 and gene-134_2_N26",
+        "micro_sample.observed_collision.digest"
+      ],
+      "question_opened": "Does the shared digest arise from metadata alignment, export alignment, feature duplication, or intended representation degeneracy?",
+      "why_it_matters": "The two wells carry different identities while the digest is identical.",
+      "next_checks": [
+        "Check whether the two well_ids map to different source images or image sets.",
+        "Check whether feature extraction/export duplicated a vector.",
+        "Check whether metadata row order and embedding row order are aligned.",
+        "Check whether either well is a control/query alias or normalization artifact."
+      ]
+    },
+    {
+      "path": "biological-review path",
+      "source_fields": [
+        "gene",
+        "treatment",
+        "perturbation_type",
+        "cell_type",
+        "well_type_label"
+      ],
+      "question_opened": "What biological interpretation, if any, is justified when distinct perturbation identities share the same representation?",
+      "why_it_matters": "The sample alone shows representation equality, not biological equivalence.",
+      "next_checks": [
+        "Ask a domain scientist whether PLK1 guide/control and AKR1C3 query guide should ever collapse at the embedding level.",
+        "Review whether both rows share cell type and perturbation modality.",
+        "Separate biological equivalence, representation degeneracy, and data-pipeline duplication as different hypotheses."
+      ]
+    },
+    {
+      "path": "frontier-discovery path",
+      "source_fields": [
+        "micro_sample.Axis10.theta_axis10_residual_star",
+        "micro_sample.closure.remaining_object",
+        "voice_card.voice_extract"
+      ],
+      "question_opened": "What new question is opened by carrying the unresolved identity gap instead of resolving it away?",
+      "why_it_matters": "The runtime names theta_axis10_residual_star as the remaining carried object and lands the finding as a carried-residual discovery record.",
+      "next_checks": [
+        "Treat the event as a prompt for follow-up curation, not as a final biological conclusion.",
+        "Create a review queue for exact embedding duplicates across distinct biological metadata.",
+        "Rank similar events by whether they cross gene, guide, control/query, experiment, plate, or cell-type boundaries."
+      ]
+    }
+  ],
+  "null_state_note": {
+    "method": "JSON structure walk and filesystem existence checks only; no regex classification",
+    "counts_by_kind": {
+      "loaded_output_status_null": 15,
+      "raw_jsonl_status_null": 1,
+      "trace_status_null": 16,
+      "micro_sample_value_null": 1
+    },
+    "translation": "The 16 package null states are classified separately from the RxRx3 biological sample. They correspond to absent candidate outputs in the micro sandbox trace, while the micro sample itself has one null field: Axis10.quarantine."
+  },
+  "source_seals": {
+    "micro_sample_sha256": "03c16a22614d1e89d42150be8b56900e14bee4040e7f0117bbfdc32b7ac90685",
+    "voice_card_sha256": "ecda4ebfda285364b12abf648ea15daa5cf415f16ac90caa0b923bafe07745a5",
+    "voice_card_seal": "fa3a9208d7c64bcb2727354c79acee98196a91be9ef8fb2a7d778b12afade422"
+  }
+}
