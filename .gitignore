@@ -1,0 +1,45 @@
+﻿# Python virtual environments
+.venv/
+.venv_public/
+.venv_rxrx3/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime and private data
+runs/
+data_real/
+data_public_matt/
+*.jsonl
+*.ndjson
+*.db
+*.sqlite
+*.sqlite3
+operator_cards/
+raw_identity_output.json
+garden_full_run.json
+
+# Secrets
+.env
+*.env
+.ibm_quantum.env
+*token*
+*secret*
+*credential*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Local archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

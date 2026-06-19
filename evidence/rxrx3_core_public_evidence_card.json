@@ -1,0 +1,51 @@
+﻿{
+  "kind": "themis_public_evidence_card",
+  "dataset": "RxRx3-core",
+  "dataset_type": "Recursion OpenPhenom biological embeddings",
+  "rows": 222601,
+  "metadata_columns": 11,
+  "embedding_features": 384,
+  "unique_well_ids": 222601,
+  "unique_feature_digests": 222600,
+  "duplicate_embedding_collision_rows": 2,
+  "duplicate_embedding_digest": "923e8f259a606dd40355f0fe0b2cecc473dd3755cf7b3ed9c2403c34e2423d60",
+  "duplicate_collision": [
+    {
+      "sample_index": 192182,
+      "well_id": "gene-134_2_L39",
+      "gene": "PLK1",
+      "treatment": "PLK1_guide_1",
+      "perturbation_type": "CRISPR",
+      "cell_type": "HUVEC",
+      "well_type_label": "CRISPR Gene Positive Controls"
+    },
+    {
+      "sample_index": 192184,
+      "well_id": "gene-134_2_N26",
+      "gene": "AKR1C3",
+      "treatment": "AKR1C3_guide_5",
+      "perturbation_type": "CRISPR",
+      "cell_type": "HUVEC",
+      "well_type_label": "Query guides"
+    }
+  ],
+  "themis_verdict": "CLOSED_WITH_RESIDUAL_CARRIED",
+  "closure_score": "9 / 9",
+  "unit_boundary_held": true,
+  "no_radial_drift": true,
+  "outcome_counts": {
+    "success": 9,
+    "null": 0,
+    "unknown": 0,
+    "nonmatch": 0,
+    "error": 0,
+    "timeout": 0,
+    "break": 0
+  },
+  "runtime_ms": 4210,
+  "wall_time_seconds": 12.41,
+  "result_json_size_bytes": 185891563,
+  "sefer_seal": "270968ffcd29de57b4a7fcb054d8e518fec610d7842b118f5645d8438b2c447b",
+  "source_archive_sha256": "240d39f26e01840f823a7b276fea820da965d5104cd04c336faef41dbe3c03e4",
+  "public_claim": "Themis processed a full public biological embedding dataset and preserved an observed duplicate embedding identity collision without silent narrowing."
+}
